@@ -1,0 +1,30 @@
+{
+ "B-233": {
+  "recovered": true,
+  "t_half": 446413329,
+  "n": 155,
+  "implied_true_clock": 892826658,
+  "implied_utc": "1998-04-17 15:24:18+00:00"
+ },
+ "B-283": {
+  "recovered": true,
+  "t_half": 446413432,
+  "n": 32,
+  "implied_true_clock": 892826864,
+  "implied_utc": "1998-04-17 15:27:44+00:00"
+ },
+ "B-409": {
+  "recovered": true,
+  "t_half": 446413509,
+  "n": 60,
+  "implied_true_clock": 892827018,
+  "implied_utc": "1998-04-17 15:30:18+00:00"
+ },
+ "B-571": {
+  "recovered": true,
+  "t_half": 446413564,
+  "n": 73,
+  "implied_true_clock": 892827128,
+  "implied_utc": "1998-04-17 15:32:08+00:00"
+ }
+}
