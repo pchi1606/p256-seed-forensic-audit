@@ -1,0 +1,37 @@
+{
+ "design": "boundary controls: h=9 reject; embedding ord 20 reject / 21 pass; production predicate code; GP ellcard ground truth",
+ "cases": {
+  "h9_reject": {
+   "field": 10007,
+   "b": 23,
+   "order": 9873,
+   "q": 1097,
+   "predicate_returns": {
+    "q": 1097,
+    "h": 9,
+    "viable": false
+   },
+   "expected_viable": false,
+   "pass": true
+  },
+  "k20_reject": {
+   "field": 5147,
+   "b": 2501,
+   "order": 5101,
+   "ord_q(p)": 20,
+   "k_gt_20_returns": false,
+   "expected": false,
+   "pass": true
+  },
+  "k21_pass": {
+   "field": 5261,
+   "b": 62,
+   "order": 5209,
+   "ord_q(p)": 21,
+   "k_gt_20_returns": true,
+   "expected": true,
+   "pass": true
+  }
+ },
+ "all_pass": true
+}

@@ -1,0 +1,105 @@
+{
+ "876": {
+  "order": "115792089210356248762697446949407573529980276179566407717841077783673421468943",
+  "twist_order": "115792089210356248762697446949407573530192010651014220673226184834060774238961",
+  "factorization": [
+   [
+    "3",
+    1
+   ],
+   [
+    "11",
+    1
+   ],
+   [
+    "37",
+    1
+   ],
+   [
+    "8081",
+    1
+   ],
+   [
+    "5912232803",
+    1
+   ],
+   [
+    "1984936384003433399185522518834868561881708890552810354661487",
+    1
+   ]
+  ],
+  "largest_prime_factor": "1984936384003433399185522518834868561881708890552810354661487",
+  "h_exact_vs_largest_prime": "58335415756153503",
+  "production_predicate": {
+   "q": null,
+   "h_partial_product": 33,
+   "viable": false
+  },
+  "divisor_criterion_viable": false
+ },
+ "78": {
+  "order": "115792089210356248762697446949407573529488654146255459484813647826182573233708",
+  "twist_order": "115792089210356248762697446949407573530683632684325168906253614791551622474196",
+  "factorization": [
+   [
+    "2",
+    2
+   ],
+   [
+    "11731",
+    1
+   ],
+   [
+    "429118952175394467592646917",
+    1
+   ],
+   [
+    "5750507418472683055014882985347861486658673387",
+    1
+   ]
+  ],
+  "largest_prime_factor": "5750507418472683055014882985347861486658673387",
+  "h_exact_vs_largest_prime": "20135977711878209997317363933308",
+  "production_predicate": {
+   "q": null,
+   "h_partial_product": 46924,
+   "viable": false
+  },
+  "divisor_criterion_viable": false
+ },
+ "1842": {
+  "order": "115792089210356248762697446949407573529996955224135760342422259061068512044369",
+  "twist_order": "115792089210356248762697446949407573530175331606444868048645003556665683663535",
+  "factorization": [
+   [
+    "3",
+    1
+   ],
+   [
+    "5",
+    1
+   ],
+   [
+    "13",
+    1
+   ],
+   [
+    "179",
+    1
+   ],
+   [
+    "3317349640749355357762425066592395746459685764401801118712075735758936647",
+    1
+   ]
+  ],
+  "largest_prime_factor": "3317349640749355357762425066592395746459685764401801118712075735758936647",
+  "h_exact_vs_largest_prime": "34905",
+  "production_predicate": {
+   "q": null,
+   "h_partial_product": 15,
+   "viable": false
+  },
+  "divisor_criterion_viable": false
+ },
+ "summary": "All three twist orders are non-viable under V_loose by both the production predicate and the divisor criterion. v1's printed cofactors (33, 46924, 177) were partial trial-division products (and, for 1842, computed from a mistyped order); the exact cofactors against the largest prime factor are in this file."
+}

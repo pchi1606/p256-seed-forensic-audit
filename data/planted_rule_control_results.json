@@ -1,0 +1,198 @@
+{
+ "design": "planted-rule positive control over production rule_picks/match code; real viable sets and seeds; synthetic published index = planted rule's pick",
+ "plantings": [
+  {
+   "run": "P-256",
+   "planted_rule": "R2_reverse_last_viable",
+   "planted_pick": 1842,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "P-256",
+   "planted_rule": "R4_stride2_phase1",
+   "planted_pick": 78,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "D_max_hamming",
+    "R1_forward_first_viable",
+    "R4_stride3_phase2"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-256",
+   "planted_rule": "R4_stride3_phase2",
+   "planted_pick": 78,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "D_max_hamming",
+    "R1_forward_first_viable",
+    "R4_stride2_phase1"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-256",
+   "planted_rule": "D_lex_min_seed",
+   "planted_pick": 958,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "D_min_hamming",
+    "R4_stride3_phase0"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-256",
+   "planted_rule": "D_min_hamming",
+   "planted_pick": 958,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "D_lex_min_seed",
+    "R4_stride3_phase0"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-256",
+   "planted_rule": "D_median_viable",
+   "planted_pick": 1052,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "R4_stride3_phase1"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "planted_rule": "R2_reverse_last_viable",
+   "planted_pick": 2688,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "planted_rule": "R4_stride2_phase1",
+   "planted_pick": 1626,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "D_lex_max_seed"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "planted_rule": "R4_stride3_phase2",
+   "planted_pick": 477,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "planted_rule": "D_lex_min_seed",
+   "planted_pick": 2071,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "planted_rule": "D_min_hamming",
+   "planted_pick": 1277,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "R4_stride3_phase1"
+   ],
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "planted_rule": "D_median_viable",
+   "planted_pick": 1497,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "planted_rule": "R2_reverse_last_viable",
+   "planted_pick": 2185,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "planted_rule": "R4_stride2_phase1",
+   "planted_pick": 6,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "R1_forward_first_viable",
+    "R4_stride3_phase2"
+   ],
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "planted_rule": "R4_stride3_phase2",
+   "planted_pick": 6,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "R1_forward_first_viable",
+    "R4_stride2_phase1"
+   ],
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "planted_rule": "D_lex_min_seed",
+   "planted_pick": 36,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "planted_rule": "D_min_hamming",
+   "planted_pick": 837,
+   "planted_rule_matched": true,
+   "also_matched": [
+    "R4_stride2_phase0"
+   ],
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "planted_rule": "D_median_viable",
+   "planted_pick": 1032,
+   "planted_rule_matched": true,
+   "also_matched": [],
+   "pass": true
+  }
+ ],
+ "negatives": [
+  {
+   "run": "P-256",
+   "negative_index": 876,
+   "any_match": false,
+   "pass": true
+  },
+  {
+   "run": "P-384",
+   "negative_index": 841,
+   "any_match": false,
+   "pass": true
+  },
+  {
+   "run": "prime239v1",
+   "negative_index": 202,
+   "any_match": false,
+   "pass": true
+  }
+ ],
+ "all_pass": true
+}

@@ -1,0 +1,46 @@
+{
+ "anomalous": {
+  "p": 3001,
+  "b": 178,
+  "N": 3001,
+  "q": 3001,
+  "h": 1,
+  "viable": false,
+  "pass": true
+ },
+ "embedding_fail": {
+  "p": 107,
+  "b": 5,
+  "q": 101,
+  "ord": 10,
+  "k_gt_20": false,
+  "pass": true
+ },
+ "embedding_pass": {
+  "p": 3001,
+  "b": 1,
+  "q": 3079,
+  "ord": 3078,
+  "k_gt_20": true,
+  "pass": true
+ },
+ "cofactor_h8": {
+  "p": 1000003,
+  "b": 78,
+  "N": 998392,
+  "q": 124799,
+  "h": 8,
+  "viable": true,
+  "pass": true
+ },
+ "cofactor_hbig": {
+  "p": 1000003,
+  "b": 3,
+  "N": 999864,
+  "q": 1543,
+  "h": 648,
+  "viable": false,
+  "pass": true
+ },
+ "all_pass": true
+}
