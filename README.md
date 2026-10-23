@@ -1,4 +1,4 @@
-# Reproduction package — "The Published P-256 Seed Was Not the First Viable Candidate"
+# Reproduction package — "The Published P-256 Seed Was Not the First Candidate Passing Two Retrospective Viability Screens: A Preregistered Verification"
 
 One-command verification of the magazine note's headline numbers.
 
